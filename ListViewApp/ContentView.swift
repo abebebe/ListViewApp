@@ -40,6 +40,7 @@ struct ContentView: View {
                         Text(Index.taskItem)
                     }
                 }.navigationBarTitle("Taskリスト")
+                .navigationBarItems(trailing: EditButton())
             }
         }
     }
